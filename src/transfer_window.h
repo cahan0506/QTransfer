@@ -1,8 +1,23 @@
 #ifndef __TRANSFER_QT_H__
 #define __TRANSFER_QT_H__
 
+#include <QApplication>
+#include <QDesktopServices>
 #include<QtCore>
-#include<QtGui>
+#include<QWidget>
+#include<QDialog>
+#include<QLabel>
+#include<QMenu>
+#include<QMenuBar>
+#include<QProgressBar>
+#include<QPushButton>
+#include<QProgressBar>
+#include<QStatusBar>
+#include<QLineEdit>
+#include<QMainWindow>
+#include<QMessageBox>
+#include<QFileDialog>
+#include<QRegExpValidator>
 #include<QTcpSocket>
 #include<QTcpServer>
 #include<fstream>

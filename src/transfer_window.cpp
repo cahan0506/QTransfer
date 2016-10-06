@@ -480,7 +480,7 @@ void ListenWindow::onListen() {
     }
     
     if(list_pass->text().length() == 0) {
-        QMessageBox::information(this, tr("Required Pass"), tr("Password must be atleast 1 character..\n"));
+        QMessageBox::information(this, tr("Required Pass"), tr("Password must be at least 1 character..\n"));
         return;
     }
     

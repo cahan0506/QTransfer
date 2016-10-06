@@ -7,10 +7,11 @@ TARGET =
 DEPENDPATH += .
 INCLUDEPATH += .
 
-QT += network core gui
+QT += network core widgets gui
 
 QMAKE_CXXFLAGS += -std=c++11
 
 # Input
 HEADERS += transfer_window.h
 SOURCES += main.cpp transfer_window.cpp
+TARGET = transfer_window
